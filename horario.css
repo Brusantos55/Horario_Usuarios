@@ -1,0 +1,63 @@
+#tabla{
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+td{
+    height: 6rem;
+    font-size:14px ;
+    /*line-height: 1rem; tamaño del salto de linea*/}
+td:first-child,th:first-child{
+    width: 70px;
+    font-size:16px ;
+    text-align: center;}
+th:not(:first-child){
+    height: 1.5rem;
+    width: 180px;}
+tr:nth-child(even),th{
+    background-color: rgb(213, 213, 213);}
+tr:nth-child(odd),th{
+    background-color: white;}
+#PopUpFondo{
+    position: fixed;
+    top:0; left: 0;
+    z-index: 1;
+    width: 100%; height: 100%; 
+    background: rgba(0,0,0,0.6);
+    display: none;
+    justify-content: center;
+    align-items: center;    
+    flex-direction: column;}
+#PopUpCuerpo{
+    width: 40vw; height: fit-content; /* debe variar entre dispositivos (configurado para desktop) */
+    background: white;
+    display: flex;
+    flex-direction: column;}
+#PopUpHeader{
+    display: flex;
+    height: 30px; 
+    width: 100%;
+    background-color: orange;}
+#PopUpHeader div:nth-child(1){
+    width: 100%; 
+    padding: 5px 0 5px 30px;
+    text-align: center;}
+.boton{
+    height: 22px; width: 40px;
+    color: black;
+    text-align: center;}
+.boton:hover{
+    background-color: red;
+    color: white;}
+#botonP form{
+    background-color: white !important;
+    width: auto;}
+#PopUpMain{
+    height: auto;
+    width: auto; 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;}
+#PopUpMain p{
+    text-align: left;
+    text-indent: 20px;}

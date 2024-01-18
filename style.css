@@ -1,0 +1,196 @@
+/* 
+pinkish cinnamon:
+blue violet: #4733FF
+olive buff: #BCD382 
+
+eliminar footer titulos index colaboradores...
+todo menos formularios y horario
+
+*/
+html{display:grid;}
+p{text-align: justify;}
+body{
+    display:flex;
+    flex-direction: column;
+    background-color: #bbbbbb; 
+    height: 100%;
+    width: 80%; 
+    justify-self: center;
+    padding: 0;
+    margin: 0;}
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;}
+#top{
+    background-color: #F2AD78;
+    width: 100%;
+    height: 2rem;
+    margin: 0;
+    display: none;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 50px;}
+#top p{
+    display: flex;
+    align-items: center;}
+nav{
+    box-sizing: border-box;
+    width: 100%; height: 8rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 0 0 50px;}
+#logo{
+    width: 7rem; height: 7rem;
+    background-image: url("imgs/logo.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;}
+#menu{
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+    align-items: center;}
+#menu a{/* :hover color x  */
+    box-sizing: border-box;
+    font-size: 1.3rem;
+    padding: 2rem;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;} 
+#titulos{
+    width: 100%;
+    background-color: #BCD382;}
+#titulos h1, #titulos h2{
+    margin: 10px;
+    text-align: center;
+    color: #4733FF;}
+
+    /* header */
+    /* body */
+
+video{
+    box-sizing: border-box;
+    width: 60%;}
+#info{
+    box-sizing: border-box;
+    width: 100%;
+    margin: 20px 0px 0px;
+    display: flex;
+    justify-content: space-between;}
+#sol42{
+    background-color: white;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 100%; height: fit-content;
+    display: flex;}
+#sol42 div{
+    box-sizing: border-box;
+    width: 60%; margin-top: -20px;
+    padding-right: 20px;}
+.card{
+    box-sizing: border-box;
+    padding: 0 20px 20px;
+    width: 32%;
+    border-radius: 20px;
+    background-color: white;
+    height: fit-content;}
+.img{
+    background-size: cover;
+    background-repeat: no-repeat;}
+#rodri{
+    background-image: url("imgs/rodri.jpeg");
+    height: 215px;} 
+#cris{
+    background-image: url("imgs/sobreCris.jpg");
+    height: 173px;} 
+#oscar{
+    background-image: url("imgs/oscar.jpeg");
+    height: 257px;
+    background-position: top;} 
+#info p{
+    box-sizing: border-box;
+    width: 100%;
+    white-space:wrap;}
+
+    /* body */
+    /* formularios */
+
+#form{
+    display:flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;}
+    form{
+        background-color: #eee;
+        width: 70vw;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        height: fit-content;}
+        /* align-items: center; */
+.couple{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 70px;
+    align-self: center;
+    padding: 10px;}
+input{
+    border: solid 0;
+    border-radius: 3px;}
+#togglePassword, #togglePasswordos {
+    margin-left: -30px;
+    cursor: pointer;}
+input[type=text], input[type=password], input[type=email], input[type=number]{
+    padding: 10px;
+    font-size: 18px;
+    outline: none;
+    -moz-appearance:textfield;}
+input[type=submit]{
+    background-color: #1E69E3;
+    color: white;
+    padding: 8px;
+    border: none;
+    width: 200px;
+    align-self: center;
+    margin-top: 15px;}
+    /* *left */
+#logNav{
+    display:flex;
+    justify-content: space-between;}
+
+    /* formularios */
+    /* footer */
+
+#footer{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #4733FF;}
+#footer>*{
+    width: 27%;}
+#menuf a{
+    box-sizing: border-box;
+    font-size: 1.3rem;
+    margin: 1rem;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    text-indent: 40px;}
+#menuf h4{
+    font-size: x-large;}
+#mapita{
+    box-sizing: border-box;
+    padding: 20px 0 ;}
+#ss{
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+    /* footer */
+
